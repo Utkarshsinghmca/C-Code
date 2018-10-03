@@ -1,5 +1,5 @@
 using System;
-namespace First
+namespace ConsoleApp1
 {
     class Program
     {
@@ -8,11 +8,11 @@ namespace First
             int num;
             Console.Write("Ek number dalo check karne k liye kya wo even number hai ya phir odd number hai bhai");
             num = int.Parse(Console.ReadLine());
-            if(num % 2 == 0)
+            if (num % 2 == 0)
             {
                 Console.Write("Ye wala number even hai bhai");
                 Console.Read();
-              
+
             }
             else
             {
